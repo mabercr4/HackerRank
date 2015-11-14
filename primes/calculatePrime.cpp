@@ -4,6 +4,19 @@
 
 using namespace std;
 bool isPrime(int n);
+/*
+    Future plans for this program: be able to calculate any and all possible
+        prime numbers up to a given counter. 
+        
+    To do: 
+        change "number" in main() to declare the counter
+        create for loop until counter is satisfied to test incrementing integers
+        either store numbers found into an array or simply throw them away until 
+        counter prime number is found. 
+            --may have to offset number found by 3 to satisfy exception cases for
+                low integers such as 2, 3 etc.
+
+*/
 
 int main(int argc, char *argv[]){
     
@@ -22,20 +35,6 @@ int main(int argc, char *argv[]){
     int integer=0;
     
     int counter = 0;
-    //find prime numbers!!!!
-    // for (int i=0; i<number; i++){
-    //     while (counter != number){  //while the number of primes specified has not been found, continue on.
-    //                                 //the only thing I can think of is to do a massive multiplication table up to half the value of the number you're currently looking at and then 
-    //                                 //searching this array of numbers to see if there are any blank spaces in between the products.
-    //                                 //blank spaces will indicate that nothing multiplied will produce a product of these numbers and therefore verify that they are prime.
-    //                                 //this is a very inefficient way of calculating primes though ---roughly n^2 I think . 
-    //         if (integer )
-            
-            
-    //         counter++
-    //     }
-        
-    // }
     
     cout<<"this program tests if a number entered is prime"<<endl;
     if (isPrime(number))
